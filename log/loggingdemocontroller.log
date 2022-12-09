@@ -1,0 +1,42 @@
+2022-12-09T00:01:35.571+05:30  INFO 1656 --- [main] com.learning.demo.DemoApplication        : Starting DemoApplication using Java 17.0.5 with PID 1656 (D:\learning.demo\learning.demo\target\classes started by Abhishek in D:\learning.demo)
+2022-12-09T00:01:35.583+05:30  INFO 1656 --- [main] com.learning.demo.DemoApplication        : No active profile set, falling back to 1 default profile: "default"
+2022-12-09T00:01:36.447+05:30  INFO 1656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-09T00:01:36.710+05:30  INFO 1656 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 251 ms. Found 3 JPA repository interfaces.
+2022-12-09T00:01:37.562+05:30  INFO 1656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-12-09T00:01:37.574+05:30  INFO 1656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-09T00:01:37.575+05:30  INFO 1656 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-12-09T00:01:37.700+05:30  INFO 1656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2022-12-09T00:01:37.701+05:30  INFO 1656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2046 ms
+2022-12-09T00:01:37.846+05:30  INFO 1656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-09T00:01:38.095+05:30  INFO 1656 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:2e2758af-439a-4c18-81a8-12ae2ed55054 user=SA
+2022-12-09T00:01:38.097+05:30  INFO 1656 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-09T00:01:38.152+05:30  INFO 1656 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-09T00:01:38.223+05:30  INFO 1656 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-09T00:01:38.457+05:30  WARN 1656 --- [main] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2022-12-09T00:01:38.639+05:30  INFO 1656 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-09T00:01:39.662+05:30  INFO 1656 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-09T00:01:39.672+05:30  INFO 1656 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-09T00:01:40.240+05:30  WARN 1656 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-09T00:01:40.679+05:30  INFO 1656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/app'
+2022-12-09T00:01:40.689+05:30  INFO 1656 --- [main] com.learning.demo.DemoApplication        : Started DemoApplication in 5.686 seconds (process running for 6.209)
+2022-12-09T00:02:04.316+05:30  INFO 1656 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-09T00:02:04.317+05:30  INFO 1656 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-09T00:02:04.321+05:30  INFO 1656 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-12-09T00:02:04.690+05:30  INFO 1656 --- [http-nio-8081-exec-2] c.l.demo.controller.CustomerController   : Added customer
+2022-12-09T00:02:04.696+05:30  INFO 1656 --- [http-nio-8081-exec-2] com.learning.demo.entities.Customer      : [Ljava.lang.Object;@795a6cf3
+2022-12-09T00:02:04.697+05:30  INFO 1656 --- [http-nio-8081-exec-2] com.learning.demo.entities.Customer      : JoinPoint.........................
+2022-12-09T00:02:06.441+05:30  INFO 1656 --- [http-nio-8081-exec-3] c.l.demo.controller.CustomerController   : Added customer
+2022-12-09T00:02:06.442+05:30  INFO 1656 --- [http-nio-8081-exec-3] com.learning.demo.entities.Customer      : [Ljava.lang.Object;@233e7bd8
+2022-12-09T00:02:06.442+05:30  INFO 1656 --- [http-nio-8081-exec-3] com.learning.demo.entities.Customer      : JoinPoint.........................
+2022-12-09T00:02:07.608+05:30  INFO 1656 --- [http-nio-8081-exec-4] c.l.demo.controller.CustomerController   : Added customer
+2022-12-09T00:02:07.608+05:30  INFO 1656 --- [http-nio-8081-exec-4] com.learning.demo.entities.Customer      : [Ljava.lang.Object;@4c97b942
+2022-12-09T00:02:07.609+05:30  INFO 1656 --- [http-nio-8081-exec-4] com.learning.demo.entities.Customer      : JoinPoint.........................
+2022-12-09T00:02:08.636+05:30  INFO 1656 --- [http-nio-8081-exec-5] c.l.demo.controller.CustomerController   : Added customer
+2022-12-09T00:02:08.637+05:30  INFO 1656 --- [http-nio-8081-exec-5] com.learning.demo.entities.Customer      : [Ljava.lang.Object;@7fc50d0f
+2022-12-09T00:02:08.637+05:30  INFO 1656 --- [http-nio-8081-exec-5] com.learning.demo.entities.Customer      : JoinPoint.........................
+2022-12-09T00:02:11.476+05:30  INFO 1656 --- [http-nio-8081-exec-6] com.learning.demo.entities.Customer      : [Ljava.lang.Object;@4022da8a
+2022-12-09T00:02:11.477+05:30  INFO 1656 --- [http-nio-8081-exec-6] com.learning.demo.entities.Customer      : JoinPoint.........................
+2022-12-09T00:07:33.486+05:30  INFO 1656 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-09T00:07:33.487+05:30  INFO 1656 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-12-09T00:07:33.493+05:30  INFO 1656 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-09T00:07:33.495+05:30  INFO 1656 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
